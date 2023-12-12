@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Sacramento&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  text-align: center;
+  padding: 4rem 12rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+}
+p{
+    font-family: "Montserrat";
+    color:#8F8F9E;
+    line-height: 2.5;
+}
+.block{
+    width:100%;
+}
+.btn{
+    transition: 0.3s;
+    padding:10px 12px ;
+    border:none;
+    border-radius: 4px;
+    font-size:1.1rem;
+    font-family: "Montserrat";
+}
+
+.cta-btn{
+    border: 1px solid white;
+    background-color: transparent;                                                 
+}
+.cta-btn-alt{
+    border:1px solid #333;
+    color:#fff;
+    background-color: #333;
+  }
+  .cta-btn{
+    border:1px solid #333;
+    background-color: transparent;
+}
+
+.cta-btn:hover{
+    background-color: #333;
+    color:#fff;
+}
+.cta-btn-alt:hover{
+    background-color: #000;
+}
+
+.level-2 {
+font-size: 3rem;
+font-weight: 600;
+margin-bottom :2rem;
+}
+
+.level-3 {
+    font-size:2rem;
+    font-weight: 450;
+}
+
+
+/*=================================HEADER SECTION======================== */
+
+/* NAVIGATION PANEL */
+
+#header {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 2rem 15rem 2rem;
+  height: 80vh;
+  overflow: hidden;
+  position: relative
+}
+#header .cta-btn{
+
+    margin-right: 1rem;
+    border-color: #fff;
+    color:#fff;
+}
+#header .cta-btn:hover{
+    background-color: #fff;;
+    color:#333;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 4rem;
+  align-items: baseline;
+  margin-top: 1.5rem;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #fff;
+}
+#nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+#nav ul li {
+  margin-left: 4rem;
+  color: #ffc5bc;
+}
+
+#nav ul li:hover {
+  color: rgb(248, 234, 234);
+}
+
+.logo {
+  font-family: Montserrat;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+/* ==================== */
+/* content box */
+
+#main {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#contentbox {
+  width: 50%;
+}
+
+#contentbox h1 {
+  line-height: 1.5;
+  font-size: 3.4rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+}
+
+
+
+#img-box {
+  width: 50%;
+}
+#img-box img {
+  width:60%;
+position: relative;
+left:100px;
+  rotate: 25deg;
+filter: drop-shadow(-4px -4px 4px #000);
+}
+/* ======================== */
+/* ========================================HEADER SECTION END================================= */
+
+/*=========================================FEATURES SECTION=================================== */
+
+#features .features_row{
+margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.features_row .feature i{
+    color:#ef8172;
+    margin-bottom: 1rem;
+    font-size: 3.4rem;
+}
+
+.features_row .feature {
+width:25%;
+}
+
+.features_row .feature p{
+  line-height: 1.6rem;
+}
+
+
+
+/* =====================================FEATURE SECTION END================================== */
+
+/* ======================================BRAND SECTION======================================== */
+
+#brands {
+  text-align: center;
+  background-color: #ef8172;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+#brands.wrapper{
+  padding:4rem 4rem;
+}
+
+#brands img{
+  filter: drop-shadow(-2px -2px 2px #000);
+}
+
+/* ==================================BRAND SECTION END========================================= */
+
+/* ===================================PRICING SECTION========================================== */
+
+#pricing .pricing_cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin-top: 2rem;
+}
+
+#pricing .price_card {
+    width:30%;
+    box-shadow: 0 0 2px 0 #000;
+}
+#pricing .price_card .card_head{
+    padding: 1rem;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #ccc;
+}
+#pricing .pricehead h3 {
+  font-size: 32px;
+  font-weight: 550;
+}
+
+#pricing .card_body  h3{
+    font-size: 3rem;
+    font-weight:500;
+}
+#pricing .card_body {
+padding:1rem;
+  line-height: 2.5rem;
+}
+
+#pricing .card_head h3 {
+  font-size: 2.4rem;
+  font-weight: 450;
+}
+
+/* buttons */
+#pricing .pricebody .signup1 {
+  background-color: #fff;
+  color: black;
+  width: 18rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 1.25rem;
+}
+
+#pricing .pricebody button {
+  background-color: #23272b;
+  color: #fff;
+  width: 18rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  border: 1px solid black;
+  border-radius: 7px;
+  font-size: 1.25rem;
+}
+/* ----------- */
+
+/* ===========================PRICING SECTION END======================= */
+
+/* =============================CTA SECTION============================ */
+
+#cta {
+  color:#fff;
+  text-align: center;
+  background-color: #ff4c68;
+}
+#cta .cta-btn{
+  color:#fff;border-color: #fff;  
+}
+#cta .btn {
+  margin: 0 1rem;
+}
+#cta h3 {
+  font-size: 4rem;
+  padding: 0 10rem;
+}
+
+
+/* =========================CTA SECTION END========================== */
+
+/* ==========================FOOTER SECTION========================== */
+
+#footer a {
+  margin: 20px 10px;
+  color:#000;
+  font-size: 1rem;
+}
+
+
+
+
+/* media queries */
+@media (max-width:768px){
+  .wrapper{
+    padding:2rem ;
+  }
+
+  #header #nav{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin-bottom: 2rem;
+  }
+  #header #nav ul{
+    display: none;
+  }
+  #header{
+    text-align: center;
+    padding:2rem;
+    height:auto;
+  }
+  #header .btn{
+    border-width: 2px;
+    width:100%;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  #header .btn:last-child{
+    margin: 0;
+  }
+
+  #header #main{
+    flex-direction: column;
+  }
+  #header #main #contentbox {
+
+    width:100%;
+  }
+  #header #main #img-box{
+    margin-top: 3rem;
+    width:100%;
+
+  }
+  #header #main #img-box img{
+transform: rotate(-25deg);
+position: static;
+
+  }
+
+  #features .features_row{
+    flex-direction: column;
+  }
+  #features .features_row .feature{
+    width:100%;
+    margin-bottom: 2rem;
+  }
+  #features .features_row .feature:last-child{
+    margin-bottom: 0;
+  }
+
+#brands.wrapper{
+  padding:2rem;
+  flex-direction: column;
+}
+  
+#brands img{
+  width:100%;
+  margin-bottom: 2rem;
+}
+#brands img:last-child{
+  margin: 0;
+}
+  
+
+
+  #pricing .pricing_cards{
+    flex-direction: column;
+  }
+  #pricing .pricing_cards .price_card{
+    width:100%;
+    margin-bottom: 2rem;}
+    
+    #pricing .pricing_cards .price_card:last-child{
+      margin-bottom: 0;
+    }
+}
